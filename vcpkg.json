@@ -1,0 +1,15 @@
+{
+	"name": "example",
+	"version": "0.8.0",
+	"description": "Example for vcpkg issue",
+	"builtin-baseline": "ded511cf49a99f904cad1b7f236a570cfd9a3dd5",
+	"dependencies": [
+		"openimageio"
+	],
+	"overrides": [
+		{
+			"name": "openimageio",
+			"version": "3.0.0.3#1"
+		}
+	]
+}
